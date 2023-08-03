@@ -1,0 +1,142 @@
+body {
+    background-color: #0d1416;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: narrower;
+}
+
+div {
+    background-color:#0d1416;
+    padding: 5px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 550;
+    color: #86959b;
+}
+
+#top-bar {
+    background-color: #0d1416;
+    border-bottom: 1px solid #262c2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items {
+    color: white;
+}
+ 
+#logo {
+    width: 135px;
+    margin-right: 160px;
+}
+
+#search {
+    display: flex;
+    font-size: 15px;
+    font-weight: 20;
+    background-color: #1d282d;
+    color: #86959b;
+    padding-left: 20px;
+    padding-right: 400px;
+    margin-right: 20px;
+    border-radius: 25px;
+    align-items: center;
+    margin-right: 165px;
+}
+
+#searchimg {
+    width: 25px;
+    margin-right: 10px;
+}
+ 
+#get{
+    background-color: #1d282d;
+    font-size: 15px;
+    font-weight: 549;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+}
+
+#login{
+    background-color: #dd4611;
+    font-size: 15px;
+    font-weight: 549;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    margin-right: 20px;
+}
+
+#search:hover, #get:hover {
+    background-color: #263237;
+}
+
+#login:hover {
+    background-color: #8a2c06;
+    text-decoration: underline;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#side-bar {
+    background-color: #0d1416;
+    border-right: 1px solid #262c2e;
+    display: flex;
+    flex-direction: column;
+}
+
+#wallop {
+    width: 948px;
+    padding: 0px 5px 0px 15px;
+}
+
+#wallor {
+    width: 948px;
+    height: 450px;
+    padding: 0px 5px 50px 15px;
+}
+
+.idk {
+    font-size: 12px;
+    padding-left: 25px;
+}
+
+#Something {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#Topics {
+    border-top: 1px solid #3d4345;
+    border-bottom: 1px solid #3d4345;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#Resources {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.blem {
+   color: #86959b;
+   padding-top: 13px; 
+   padding-bottom: 13px; 
+   padding-left: 40px;
+   margin-left: 13px;
+   padding-right: 70px;
+   font-size: 15px;
+}
+
+.see {
+    font-weight: 550;
+}
+
+a {
+    text-decoration: none;
+}
